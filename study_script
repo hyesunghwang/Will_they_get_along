@@ -1,0 +1,1270 @@
+{
+"frames": {
+        "start-recording-with-video": {
+            "kind": "exp-lookit-start-recording",
+            "baseDir": "https://www.mit.edu/~kimscott/placeholderstimuli/",
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ],
+            "video": "attentiongrabber",
+            "displayFullscreen": true
+        },
+        "stop-recording-with-video": {
+            "kind": "exp-lookit-stop-recording",
+            "baseDir": "https://www.mit.edu/~kimscott/placeholderstimuli/",
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ],
+            "video": "attentiongrabber",
+            "displayFullscreen": true
+        },
+        "trials": {
+            "kind": "choice",
+            "sampler": "random-parameter-set",
+            "frameList": [
+                {
+                    "audio": {
+                        "source": "Grace_intro",
+                        "loop": false
+                    }
+                },
+                {
+                    "kind": "exp-lookit-calibration"
+                },
+                {
+                    "video": {
+                        "source": "FAM",
+                        "position": "fill",
+                        "loop": false
+                    },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
+                },
+                {
+                    "audio": {
+                        "source": "ATTENTIONGETTER_AUDIO_OPTIONS#UNIQ",
+                        "loop": true
+                    }
+                },
+                {
+                    "video": {
+                        "source": "FAM",
+                        "position": "fill",
+                        "loop": false
+                    },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
+                },
+                {
+                    "audio": {
+                        "source": "ATTENTIONGETTER_AUDIO_OPTIONS#UNIQ",
+                        "loop": true
+                    }
+                },
+                {
+                    "video": {
+                        "source": "FAM",
+                        "position": "fill",
+                        "loop": false
+                    },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
+                },
+                {
+                    "audio": {
+                        "source": "ATTENTIONGETTER_AUDIO_OPTIONS#UNIQ",
+                        "loop": true
+                    }
+                },
+                {
+                    "video": {
+                        "source": "FAM",
+                        "position": "fill",
+                        "loop": false
+                    },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
+                },
+                {
+                    "audio": {
+                        "source": "ATTENTIONGETTER_AUDIO_OPTIONS#UNIQ",
+                        "loop": true
+                    }
+                },
+                {
+                    "kind": "exp-lookit-calibration"
+                },
+                {
+                    "video": {
+                        "source": "TEST1",
+                        "position": "fill",
+                        "loop": false
+                    },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
+                },
+                {
+                    "audio": {
+                        "source": "ATTENTIONGETTER_AUDIO_OPTIONS#UNIQ",
+                        "loop": true
+                    }
+                },
+                {
+                    "video": {
+                        "source": "TEST2",
+                        "position": "fill",
+                        "loop": false
+                    },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
+                },
+                {
+                    "audio": {
+                        "source": "ATTENTIONGETTER_AUDIO_OPTIONS#UNIQ",
+                        "loop": true
+                    }
+                },
+                {
+                    "video": {
+                        "source": "TEST1",
+                        "position": "fill",
+                        "loop": false
+                    },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
+                },
+                {
+                    "audio": {
+                        "source": "ATTENTIONGETTER_AUDIO_OPTIONS#UNIQ",
+                        "loop": true
+                    }
+                },
+                {
+                    "video": {
+                        "source": "TEST2",
+                        "position": "fill",
+                        "loop": false
+                    },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
+                },
+                {
+                    "audio": {
+                        "source": "ATTENTIONGETTER_AUDIO_OPTIONS#UNIQ",
+                        "loop": true
+                    }
+                },
+                {
+                    "video": {
+                        "source": "TEST1",
+                        "position": "fill",
+                        "loop": false
+                    },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
+                },
+                {
+                    "audio": {
+                        "source": "ATTENTIONGETTER_AUDIO_OPTIONS#UNIQ",
+                        "loop": true
+                    }
+                },
+                {
+                    "video": {
+                        "source": "TEST2",
+                        "position": "fill",
+                        "loop": false
+                    },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
+                },
+                {
+                    "audio": {
+                        "source": "Grace_outro",
+                        "loop": false
+                    }
+                }
+            ],
+            "parameterSets": [
+                {
+                    "FAM": "W1W2",
+                    "TEST1": "W1W2A-15",
+                    "TEST2": "W1W2D-15",
+                    "ALTTEST1": "W1W2D-15",
+                    "ALTTEST2": "W1W2A-15",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                     "FAM": "W1W2",
+                     "TEST1": "W1W2D-15",
+                     "TEST2": "W1W2A-15",
+                     "ALTTEST1": "W1W2A-15",
+                     "ALTTEST2": "W1W2D-15",
+                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                         "chimes",
+                         "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                },
+                {
+                    "FAM": "W1W3",
+                    "TEST1": "W1W3A-15",
+                    "TEST2": "W1W3D-15",
+                    "ALTTEST1": "W1W3D-15",
+                    "ALTTEST2": "W1W3A-15",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                     "FAM": "W1W3",
+                     "TEST1": "W1W3D-15",
+                     "TEST2": "W1W3A-15",
+                     "ALTTEST1": "W1W3A-15",
+                     "ALTTEST2": "W1W3D-15",
+                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                         "chimes",
+                         "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                },
+                {
+                    "FAM": "W2W3",
+                    "TEST1": "W2W3A-15",
+                    "TEST2": "W2W3D-15",
+                    "ALTTEST1": "W2W3D-15",
+                    "ALTTEST2": "W2W3A-15",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                     "FAM": "W2W3",
+                     "TEST1": "W2W3D-15",
+                     "TEST2": "W2W3A-15",
+                     "ALTTEST1": "W2W3A-15",
+                     "ALTTEST2": "W2W3D-15",
+                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                         "chimes",
+                         "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                },
+                {
+                    "FAM": "B1B2",
+                    "TEST1": "B1B2A-15",
+                    "TEST2": "B1B2D-15",
+                    "ALTTEST1": "B1B2D-15",
+                    "ALTTEST2": "B1B2A-15",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                     "FAM": "B1B2",
+                     "TEST1": "B1B2D-15",
+                     "TEST2": "B1B2A-15",
+                     "ALTTEST1": "B1B2A-15",
+                     "ALTTEST2": "B1B2D-15",
+                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                         "chimes",
+                         "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                },
+                {
+                    "FAM": "B1B4",
+                    "TEST1": "B1B4A-15",
+                    "TEST2": "B1B4D-15",
+                    "ALTTEST1": "B1B4D-15",
+                    "ALTTEST2": "B1B4A-15",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                     "FAM": "B1B4",
+                     "TEST1": "B1B4D-15",
+                     "TEST2": "B1B4A-15",
+                     "ALTTEST1": "B1B4A-15",
+                     "ALTTEST2": "B1B4D-15",
+                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                         "chimes",
+                         "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                },
+                {
+                    "FAM": "B2B4",
+                    "TEST1": "B2B4A-15",
+                    "TEST2": "B2B4D-15",
+                    "ALTTEST1": "B2B4D-15",
+                    "ALTTEST2": "B2B4A-15",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                     "FAM": "B2B4",
+                     "TEST1": "B2B4D-15",
+                     "TEST2": "B2B4A-15",
+                     "ALTTEST1": "B2B4A-15",
+                     "ALTTEST2": "B2B4D-15",
+                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                         "chimes",
+                         "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                },
+                {
+                    "FAM": "W1B4",
+                    "TEST1": "W1B4A-15",
+                    "TEST2": "W1B4D-15",
+                    "ALTTEST1": "W1B4D-15",
+                    "ALTTEST2": "W1B4A-15",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                     "FAM": "W2B4",
+                     "TEST1": "W2B4D-15",
+                     "TEST2": "W2B4A-15",
+                     "ALTTEST1": "W2B4A-15",
+                     "ALTTEST2": "W2B4D-15",
+                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                         "chimes",
+                         "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                },
+                {
+                    "FAM": "W3B4",
+                    "TEST1": "W3B4A-15",
+                    "TEST2": "W3B4D-15",
+                    "ALTTEST1": "W3B4D-15",
+                    "ALTTEST2": "W3B4A-15",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                     "FAM": "W4B1",
+                     "TEST1": "W4B1D-15",
+                     "TEST2": "W4B1A-15",
+                     "ALTTEST1": "W4B1A-15",
+                     "ALTTEST2": "W4B1D-15",
+                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                         "chimes",
+                         "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                },
+                {
+                    "FAM": "W4B2",
+                    "TEST1": "W4B2A-15",
+                    "TEST2": "W4B2D-15",
+                    "ALTTEST1": "W4B2D-15",
+                    "ALTTEST2": "W4B2A-15",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                     "FAM": "W4B4",
+                     "TEST1": "W4B4D-15",
+                     "TEST2": "W4B4A-15",
+                     "ALTTEST1": "W4B4A-15",
+                     "ALTTEST2": "W4B4D-15",
+                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                         "chimes",
+                         "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                }
+            ],
+            "commonFrameProperties": {
+                "kind": "exp-lookit-video",
+                
+                "baseDir": "https://raw.githubusercontent.com/woodwardlab/lookit-stimuli-template/master/",
+                "audioTypes": [
+                    "mp3"
+                ],
+                "videoTypes": [
+                    "mp4"
+                ],
+                
+                "doRecording": false,
+                "autoProceed": true,
+                
+                "video": {
+                    "source": "attentiongrabber",
+                    "left": 40,
+                    "width": 20,
+                    "top": 30,
+                    "loop": true
+                },
+                "requiredDuration": 3,
+                "requireAudioCount": 1,
+                "requireVideoCount": 0,
+                
+                "pauseAudio": "pause",
+                "pauseVideo": "attentiongrabber",
+                "unpauseAudio": "Grace_return_from_pause",
+                "pauseText": "(You’ll have a moment to get in position again.)",
+                
+                "calibrationLength": 2000,
+                "calibrationPositions": [
+                    "left",
+                    "right",
+                    "center"
+                ],
+                "calibrationAudio": "chimes",
+                "calibrationVideo": "attentiongrabber"
+            }
+        },
+        "zipcode": {
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "title": "<b> Zip code </b> <br> We are asking for zip code information so that we can identify the demographics in your child's neighborhood. We will use the zip code provided to extract zip code level racial and linguistic demographic information from the U.S. census. This information will help us understand how neighborhood demographics relate to infants' looking patterns collected in the previous part of this study. This information will not be shared and be used for research purposes only.",
+                    "properties": {
+                        "address-1": {
+                            "type": "string",
+                            "title": "What zip code does your child currently live at?"
+                        }
+                    }
+                },
+                "options": {
+                    "fields": {
+                        "address-1": {
+                            "placeholder": "zipcode"
+                        }
+                    }
+                }
+            },
+            "nextButtonText": "Next"
+        },
+        "language": {
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "title": "<b> Your baby's language exposure </b> <br> (please select the description that best matches your child)",
+                    "properties": {
+                        "language-1": {
+                            "enum": [
+                                "<b> Monolingual (One language only) </b>: <br> A “monolingual” infant is one who hears one language almost all of the time (e.g., over 95% of the time). All of the child’s primary caregivers speak to her in this one language. An example might be a child who hears English from all family members at home. She may occasionally hear another language on TV (e.g., Spanish on Dora the Explorer) or in a weekly language-learning playgroup, but all of her primary caregivers speak to her in English. If this description describes your child, you might imagine that if her current language environment continues, when she grows up, she will be a native English speaker, and not be fluent in any other language.",
+                                "<b> Exposure (One main language and some exposure to another language) </b>: <br>  An “exposure” infant is one who hears primarily one main langauge, but who is exposed to a second language on a regular basis, but not nearly as much as the main language (e.g., 80-90% English; 10-20% Spanish). An example might be a child who hears English from both parents, yet who has a grandmother or nanny who watches the baby one or two afternoons a week and speaks in Spanish. If this description describes your child, you might imagine that if his current language environment continues, when he grows up, he will be a native speaker of English, and will have some proficiency in a second language, yet will not be fluent in that language.",
+                                "<b> Bilingual/Multilingual (Two languages or more) </b>: <br> A “bilingual/multilingual” infant hears at least two or more other languages on a regular basis (e.g., 50% English/50% Spanish; or 70% English/30% Spanish). An example might be a child who hears English from one parent and Spanish from a second parent. Or, the child might hear English from both parents and hear Spanish during the day each day from a grand parent or nanny. If this description describes your child, you might imagine that if her current language environment continues, when she grows up, she will be a native speaker of both English and of another language(s)."
+                            ]
+                        }
+                    }
+                },
+                "options": {
+                    "fields": {
+                        "language-1": {
+                            "sort": false,
+                            "type": "radio",
+                            "removeDefaultNone": true
+                        }
+                    }
+                }
+            },
+            "nextButtonText": "Next"
+        },
+        "language-follow-up": {
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "title": "<b> Your baby's language(s)</b>",
+                    "properties": {
+                        "language-list": {
+                            "enum": [
+                                "English only",
+                                "English and other language(s) (please specify below)",
+                                "Other language(s) that are not English (please specify below)"
+                            ],
+                            "type": "string",
+                            "title": "What language(s) does your child hear regularly?"
+                        },
+                        "language-list-specify": {
+                            "type": "string",
+                            "title": "Please specify the other language(s) your child hears regularly"
+                        }
+                    }
+                },
+                "options": {
+                    "fields": {
+                        "language-list": {
+                            "sort": false,
+                            "type": "radio",
+                            "removeDefaultNone": true
+                        },
+                        "language-list-specify": {
+                            "placeholder": "e.g., Spanish"
+                        }
+                    }
+                }
+            },
+            "nextButtonText": "Next"
+        },
+        "parent-1": {
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "title": "<b> Information about caregivers </b> <br> In this section, we will ask for some information about your child’s caregivers. Please tell us about the caregiver who spends the <b>most</b> time caring for your child on a daily basis.<br> <br><i>(What do we mean by caregivers? Here we are specifically interested in the people who spend the most time with your child, such as a parent or nanny or any other individual. For our purposes, these caregivers don’t need to be official parents or guardians. For instance, we would include a parent’s live-in partner who is sharing caregiving responsibilities, or a grandparent raising a child without an official custody arrangement. We are interested in the people your child sees the most, not in biological relationships - you do not need to include a biological parent who is not involved in raising your child.) </i><br><br> If multiple caregivers spend equal amounts of time caring for the child, you can choose any of them to enter first, and enter the additional caregivers on the next page.",
+                    "properties": {
+                        "firstparent0": {
+                            "enum": [
+                                "Mother",
+                                "Father",
+                                "Other (please specify)"
+                            ],
+                            "type": "string",
+                            "required": true,
+                            "title": "The caregiver that spends the most time with the child is: "
+                        },
+                        "firstparent1": {
+                            "type": "string",
+                            "required": true,
+                            "title": "If you selected other, please specify relationship"
+                        },
+                        "firstparent1race": {
+                            "enum": [
+                                "American Indian or Alaska Native",
+                                "Asian",
+                                "Black or African-American",
+                                "Hispanic or Latino",
+                                "White",
+                                "Native Hawaiian or Other Pacific Islander",
+                                "Other (please specify below)"
+                            ],
+                            "type": "string",
+                            "required": true,
+                            "title": "I would identify this caregiver's race or ethnicity as (please check all that apply):"
+                        },
+                        "firstparent1raceother": {
+                            "type": "string",
+                            "title": "If selected Other for race/ethnicity, please specify below"
+                        }
+                    },
+                    "dependencies": {
+                        "firstparent1": [
+                            "firstparent0"
+                        ]
+                    }
+                },
+                "options": {
+                    "fields": {
+                        "firstparent0": {
+                            "sort": false,
+                            "type": "radio"
+                        },
+                        "firstparent1": {
+                            "placeholder": "please specify",
+                            "dependencies": {
+                                "firstparent0": [
+                                    "Other (please specify)"
+                                ]
+                            }
+                        },
+                        "firstparent1race": {
+                            "sort": false,
+                            "type": "checkbox"
+                        },
+                        "firstparent1raceother": {
+                            "placeholder": "please specify caregiver race or ethnicity"
+                        }
+                    }
+                }
+            },
+            "nextButtonText": "Next"
+        },
+        
+"parent-2": {
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "title": "<b> Information about caregivers </b>",
+                    "properties": {
+                        "parent2": {
+                            "enum": [
+                                "No",
+                                "Yes, there are additional caregiver(s)"
+                            ],
+                            "type": "string",
+                            "required": true,
+                            "title": "Are there additional caregiver(s) who spend an equal amount of time caring for your child? "
+                        },
+                        "parent2-0": {
+                            "enum": [
+                                "Mother",
+                                "Father",
+                                "Other (please specify below)"
+                            ],
+                            "type": "string",
+                            "required": true,
+                            "title": "Caregiver 2 is: "
+                        },
+                        "parent2-1": {
+                            "type": "string",
+                            "required": true,
+                            "title": "If you selected other, please specify relationship"
+                        },
+                        "parent2race": {
+                            "enum": [
+                                "American Indian or Alaska Native",
+                                "Asian",
+                                "Black or African-American",
+                                "Hispanic or Latino",
+                                "White",
+                                "Native Hawaiian or Other Pacific Islander",
+                                "Other (please specify below)"
+                            ],
+                            "type": "string",
+                            "required": true,
+                            "title": "I would identify Caregiver 2's race or ethnicity as (please check all that apply)"
+                        },
+                        "parent2race2": {
+                            "type": "string",
+                            "title": "If selected Other for race, please specify below"
+                        },
+                        
+                        "parent2-z-othercaregivers": {
+                            "enum": [
+                                "No",
+                                "Yes, there are more caregiver(s)"
+                            ],
+                            "type": "string",
+                            "required": true,
+                            "title": "Are there other caregiver(s) for your child?"
+                        },
+                        "parent2-z-othercaregivers-parent3": {
+                            "enum": [
+                                "Mother",
+                                "Father",
+                                "Other (please specify below)"
+                            ],
+                            "type": "string",
+                            "required": true,
+                            "title": "Caregiver 3 is: "
+                        },
+                        "parent2-z-othercaregivers-parent3-1": {
+                            "type": "string",
+                            "required": true,
+                            "title": "If you selected other, please specify relationship"
+                        },
+                        "parent2-z-othercaregivers-parent3-race1": {
+                            "enum": [
+                                "American Indian or Alaska Native",
+                                "Asian",
+                                "Black or African-American",
+                                "Hispanic or Latino",
+                                "White",
+                                "Native Hawaiian or Other Pacific Islander",
+                                "Other (please specify below)"
+                            ],
+                            "type": "string",
+                            "required": true,
+                            "title": "I would identify Caregiver 3's race or ethnicity as (please check all that apply)"
+                        },
+                        "parent2-z-othercaregivers-parent3-race2": {
+                            "type": "string",
+                            "title": "If selected Other for race, please specify below"
+                        },
+                       
+                        "parent2-z-othercaregivers-z-othercaregivers": {
+                            "enum": [
+                                "No",
+                                "Yes, there are more caregiver(s)"
+                            ],
+                            "type": "string",
+                            "required": true,
+                            "title": "Are there other caregiver(s) for your child?"
+                        },
+                        "parent2-z-othercaregivers-z-othercaregivers-parent4": {
+                            "enum": [
+                                "Mother",
+                                "Father",
+                                "Other (please specify below)"
+                            ],
+                            "type": "string",
+                            "required": true,
+                            "title": "Caregiver 4 is: "
+                        },
+                        "parent2-z-othercaregivers-z-othercaregivers-parent4-1": {
+                            "type": "string",
+                            "required": true,
+                            "title": "If you selected other, please specify relationship"
+                        },
+                        "parent2-z-othercaregivers-z-othercaregivers-parent4-race1": {
+                            "enum": [
+                                "American Indian or Alaska Native",
+                                "Asian",
+                                "Black or African-American",
+                                "Hispanic or Latino",
+                                "White",
+                                "Native Hawaiian or Other Pacific Islander",
+                                "Other (please specify below)"
+                            ],
+                            "type": "string",
+                            "required": true,
+                            "title": "I would identify Caregiver 4's race or ethnicity as (please check all that apply)"
+                        },
+                        "parent2-z-othercaregivers-z-othercaregivers-parent4-race2": {
+                            "type": "string",
+                            "title": "If selected Other for race, please specify below"
+                        }
+                        
+                    },
+                    "dependencies": {
+                        "parent2-0": [
+                            "parent2"
+                        ],
+                        "parent2-1": [
+                            "parent2-0"
+                        ],
+                        "parent2race": [
+                            "parent2-0"
+                        ],
+                        "parent2race2": [
+                            "parent2-0"
+                        ],
+                        
+                        "parent2-z-othercaregivers": [
+                            "parent2-0"
+                        ],
+                        "parent2-z-othercaregivers-parent3": [
+                            "parent2-z-othercaregivers"
+                        ],
+                        "parent2-z-othercaregivers-parent3-1": [
+                            "parent2-z-othercaregivers-parent3"
+                        ],
+                        "parent2-z-othercaregivers-parent3-race1": [
+                            "parent2-z-othercaregivers-parent3"
+                        ],
+                        "parent2-z-othercaregivers-parent3-race2": [
+                            "parent2-z-othercaregivers-parent3"
+                        ],
+                        
+                        "parent2-z-othercaregivers-z-othercaregivers": [
+                            "parent2-z-othercaregivers-parent3"
+                        ],
+                        "parent2-z-othercaregivers-z-othercaregivers-parent4": [
+                            "parent2-z-othercaregivers-z-othercaregivers"
+                        ],
+                        "parent2-z-othercaregivers-z-othercaregivers-parent4-1": [
+                            "parent2-z-othercaregivers-z-othercaregivers-parent4"
+                        ],
+                        "parent2-z-othercaregivers-z-othercaregivers-parent4-race1": [
+                            "parent2-z-othercaregivers-z-othercaregivers-parent4"
+                        ],
+                        "parent2-z-othercaregivers-z-othercaregivers-parent4-race2": [
+                            "parent2-z-othercaregivers-z-othercaregivers-parent4"
+                        ]
+                        
+                    }
+                },
+                "options": {
+                    "fields": {
+                        "parent2": {
+                            "sort": false,
+                            "type": "radio"
+                        },
+                        "parent2-0": {
+                            "sort": false,
+                            "type": "radio",
+                            "dependencies": {
+                                "parent2": [
+                                    "Yes, there are additional caregiver(s)"
+                                ]
+                            }
+                        },
+                        "parent2-1": {
+                            "placeholder": "please specify",
+                            "dependencies": {
+                                "parent2-0": [
+                                    "Other (please specify below)"
+                                ]
+                            }
+                        },
+                        "parent2race": {
+                            "sort": false,
+                            "type": "checkbox",
+                            "dependencies": {
+                                "parent2-0": [
+                                    "Mother",
+                                    "Father",
+                                    "Other (please specify below)"
+                                ]
+                            }
+                        },
+                        "parent2race2": {
+                            "placeholder": "please specify caregiver race or ethnicity",
+                            "dependencies": {
+                                "parent2-0": [
+                                    "Mother",
+                                    "Father",
+                                    "Other (please specify below)"
+                                ]
+                            }
+                        },
+                        "parent2-z-othercaregivers": {
+                            "sort": false,
+                            "type": "radio",
+                            "dependencies": {
+                                "parent2-0": [
+                                    "Mother",
+                                    "Father",
+                                    "Other (please specify below)"
+                                ]
+                            }
+                           
+                        },
+                        "parent2-z-othercaregivers-parent3": {
+                            "sort": false,
+                            "type": "radio",
+                            "dependencies": {
+                                "parent2-z-othercaregivers": [
+                                    "Yes, there are more caregiver(s)"
+                                ]
+                            }
+                            
+                        },
+                        "parent2-z-othercaregivers-parent3-1": {
+                            "placeholder": "please specify",
+                            "dependencies": {
+                                "parent2-z-othercaregivers-parent3": [
+                                    "Other (please specify below)"
+                                ]
+                            }
+                        },
+                        "parent2-z-othercaregivers-parent3-race1": {
+                            "sort": false,
+                            "type": "checkbox",
+                            "dependencies": {
+                                "parent2-z-othercaregivers-parent3": [
+                                    "Mother",
+                                    "Father",
+                                    "Other (please specify below)"
+                                ]
+                            }
+                        },
+                        "parent2-z-othercaregivers-parent3-race2": {
+                            "placeholder": "please specify caregiver race or ethnicity",
+                            "dependencies": {
+                                "parent2-z-othercaregivers-parent3": [
+                                    "Mother",
+                                    "Father",
+                                    "Other (please specify below)"
+                                ]
+                            }
+                        },
+                        
+                        "parent2-z-othercaregivers-z-othercaregivers": {
+                            "sort": false,
+                            "type": "radio",
+                            "dependencies": {
+                                "parent2-z-othercaregivers-parent3": [
+                                    "Mother",
+                                    "Father",
+                                    "Other (please specify below)"
+                                ]
+                            }
+                            
+                        },
+                        "parent2-z-othercaregivers-z-othercaregivers-parent4": {
+                            "sort": false,
+                            "type": "radio",
+                            "dependencies": {
+                                "parent2-z-othercaregivers-z-othercaregivers": [
+                                    "Yes, there are more caregiver(s)"
+                                ]
+                            }
+                            
+                        },
+                        "parent2-z-othercaregivers-z-othercaregivers-parent4-1": {
+                            "placeholder": "please specify",
+                            "dependencies": {
+                                "parent2-z-othercaregivers-z-othercaregivers-parent4": [
+                                    "Other (please specify below)"
+                                ]
+                            }
+                        },
+                        "parent2-z-othercaregivers-z-othercaregivers-parent4-race1": {
+                            "sort": false,
+                            "type": "checkbox",
+                            "dependencies": {
+                                "parent2-z-othercaregivers-z-othercaregivers-parent4": [
+                                    "Mother",
+                                    "Father",
+                                    "Other (please specify below)"
+                                ]
+                            }
+                           
+                        },
+                        "parent2-z-othercaregivers-z-othercaregivers-parent4-race2": {
+                            "placeholder": "please specify caregiver race or ethnicity",
+                            "dependencies": {
+                                "pparent2-z-othercaregivers-z-othercaregivers-parent4": [
+                                    "Mother",
+                                    "Father",
+                                    "Other (please specify below)"
+                                ]
+                            }
+                        }
+                        
+                    }
+                }
+            },
+            "nextButtonText": "Next"
+        },
+
+        "demographic": {
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "title": "<b> Demographic Survey </b> <br> This survey will ask some information about your child, your child's caregivers, and the neighborhood your child lives in to better understand your child's social experience with people who vary in racial and linguistic backgrounds. This survey will take about 5-10 minutes. Your answers will be kept completely confidential and will be used for research purposes only.",
+                    "properties": {
+                        "race": {
+                            "enum": [
+                                "American Indian or Alaska Native",
+                                "Asian",
+                                "Black or African-American",
+                                "Hispanic or Latino",
+                                "White",
+                                "Native Hawaiian or Other Pacific Islander",
+                                "Other (please specify below)"
+                            ],
+                            "type": "checkbox",
+                            "title": "I would identify my child's race or ethnicity as (please check all that apply)"
+                        },
+                        "race2": {
+                            "type": "string",
+                            "title": "If you selected other"
+                        }
+                    },
+                    "dependencies": {
+                        "race2": [
+                            "race"
+                        ]
+                    }
+                },
+                "options": {
+                    "fields": {
+                        "race": {
+                            "sort": false,
+                            "type": "checkbox"
+                        },
+                        "race2": {
+                            "placeholder": "please specify your child's race or ethnicity",
+                            "dependencies": {
+                                "race2": [
+                                    "Other (please specify below)"
+                                ]
+                            }
+                        }
+                    }
+                }
+            },
+            "nextButtonText": "Next"
+        },
+        "exit-survey": {
+            "kind": "exp-lookit-exit-survey",
+            "debriefing": {
+                "text": "There is one more optional survey we would love for you to fill out to have a better sense of the people your baby interacts with on a regular basis for <b> an additional $5 Amazon gift card.</b> <br><br> <b>Click for an additional $5 survey: <a target=\"_blank\" rel=\"noopener\" href=\"https://ssd.az1.qualtrics.com/jfe/form/SV_2mCeBR0AKytM4Ps\"> https://ssd.az1.qualtrics.com/jfe/form/SV_2mCeBR0AKytM4Ps </a></b><br><br> We'll be emailing you a $5 Amazon gift card (and an additional $5 Amazon gift card if you have filled out the optional survey above). This should arrive in your inbox within the next week after we verify your consent video and check that your child is in the age range for this study.<br><br><u> Following is more information about the study you participated in:</u></b><br> In this study, each baby is randomly assigned to see either two people who speak the same language or two people who speak different languages. Your baby may have seen two women who both speak English, or one woman who speaks Spanish and one woman who speaks English. All babies saw the two people alternate between interacting in a friendly way and an unfriendly way. In future studies, we plan to add more people from other linguistic backgrounds as well. <br><br>In this study, we are trying to replicate a prior study that tested whether infants might have different expectations about how people interact based on the language people speak. Just like the previous study, we are using the fact that babies tend to look longer at things they find surprising. We are curious if babies will look longer at (or be more “surprised” by) the friendly interactions compared to unfriendly interactions when the people speak different languages. This would suggest that babies may already have expectations about how people interact based on language membership. <br><br>Of course, many other things will influence what your baby looked at most - for instance, maybe one of the women looked familiar or your baby got distracted sometimes. We can’t tell anything about how an individual baby thinks about language membership or about these interactions based on their looking times. Instead, we average across multiple trials and across many babies to find an average response, and look for consistent overall patterns. <br><br>We are also interested in how babies’ exposure to people from different linguistic backgrounds - through their neighborhood or in their daily lives - might influence looking patterns. Your baby’s looking pattern to the videos and your survey responses will help us get closer to understanding how social experiences early in life relate to infants’ attention to people from different linguistic backgrounds.<br><br>If you are interested in learning more, you can check out <a target=\"_blank\" rel=\"noopener\" href=\"https://cpb-us-w2.wpmucdn.com/voices.uchicago.edu/dist/7/1535/files/2018/11/Preverbal-Infants-Infer-Third-Party-Social-Relationships-Based-on-Language_2016-11q5you.pdf\"> this research article </a> from our group and please visit our <a target=\"_blank\" rel=\"noopener\" href=\"https://voices.uchicago.edu/woodwardlab/projects/\"> website</a>. If you have any questions or concerns, please contact Mikayla Stein (mikaylastein@uchicago.edu) <br><br> <b>Click for an additional $5 survey: <a target=\"_blank\" rel=\"noopener\" href=\"https://ssd.az1.qualtrics.com/jfe/form/SV_2mCeBR0AKytM4Ps\">https://ssd.az1.qualtrics.com/jfe/form/SV_2mCeBR0AKytM4Ps </a></b>",
+                "title": "Thank you!"
+            }
+        },
+        "instructions": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "text": "Please play this video",
+                    "title": "First, this video will explain what will happen in this study...",
+                    "mediaBlock": {
+                        "isVideo": true,
+                        "sources": [
+                            {
+                                "src": "https://raw.githubusercontent.com/woodwardlab/lookit-stimuli-template/master/mp4/Grace_lookit_intro.mp4",
+                                "type": "video/mp4"
+                            }
+                        ],
+                        "mustPlay": true
+                    }
+                },
+                {
+                    "text": "First, your child will see a video of two people talking repeated four times. <br><br>Next, your child will either see a video that shows those people saying hi or a video that shows those people turning their backs to each other. Each video will be repeated three times.<br><br> In some videos, there will be a <b>BEEP</b> sound. The video will then freeze for a few seconds. This is supposed to happen! <br><br> Please keep it at this frozen, still picture until it automatically proceeds. We are most interested in how long babies continue to look at this still image.<br><br> If your baby looks away that's okay! There will be a colorful ball with a fun sound to re-focus your baby's attention in between the videos.",
+                    "title": "Here are some points for you to remember:"
+                }
+            ],
+            "nextButtonText": "Next",
+            "showPreviousButton": false
+        },
+        "neighborhood": {
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "title": "Please indicate your agreement or disagreement with the following statements about your child's neighborhood:",
+                    "properties": {
+                        "question-1": {
+                            "enum": [
+                                "Strongly disagree",
+                                "Disagree",
+                                "Neither agree nor disagree",
+                                "Agree",
+                                "Strongly agree"
+                            ],
+                            "type": "string",
+                            "title": "This is a close-knit neighborhood."
+                        },
+                        "question-2": {
+                            "enum": [
+                                "Strongly disagree",
+                                "Disagree",
+                                "Neither agree nor disagree",
+                                "Agree",
+                                "Strongly agree"
+                            ],
+                            "type": "string",
+                            "title": "People around here are willing to help their neighbors."
+                        },
+                        "question-3": {
+                            "enum": [
+                                "Strongly disagree",
+                                "Disagree",
+                                "Neither agree nor disagree",
+                                "Agree",
+                                "Strongly agree"
+                            ],
+                            "type": "string",
+                            "title": "People in this neighborhood generally don’t get along with each other."
+                        },
+                        "question-4": {
+                            "enum": [
+                                "Strongly disagree",
+                                "Disagree",
+                                "Neither agree nor disagree",
+                                "Agree",
+                                "Strongly agree"
+                            ],
+                            "type": "string",
+                            "title": "People in this neighborhood don’t share the same values."
+                        },
+                        "question-5": {
+                            "enum": [
+                                "Strongly disagree",
+                                "Disagree",
+                                "Neither agree nor disagree",
+                                "Agree",
+                                "Strongly agree"
+                            ],
+                            "type": "string",
+                            "title": "People in this neighborhood can be trusted."
+                        }
+                    }
+                },
+                "options": {
+                    "fields": {
+                        "question-1": {
+                            "sort": false,
+                            "type": "radio",
+                            "removeDefaultNone": true
+                        },
+                        "question-2": {
+                            "sort": false,
+                            "type": "radio",
+                            "removeDefaultNone": true
+                        },
+                        "question-3": {
+                            "sort": false,
+                            "type": "radio",
+                            "removeDefaultNone": true
+                        },
+                        "question-4": {
+                            "sort": false,
+                            "type": "radio",
+                            "removeDefaultNone": true
+                        },
+                        "question-5": {
+                            "sort": false,
+                            "type": "radio",
+                            "removeDefaultNone": true
+                        }
+                    }
+                }
+            },
+            "nextButtonText": "Next"
+        },
+        "video-config": {
+            "kind": "exp-video-config",
+            "troubleshootingIntro": ""
+        },
+        "video-consent": {
+            "kind": "exp-lookit-video-consent",
+            "PIName": "Professor Amanda Woodward",
+            "datause": " Trained research assistants will view these videos to measure how long infants looked. These research assistants will not have access to identifying information, including name and birthdate, when they are coding these videos. We will not report any identifying information in order to maintain confidentiality. This research is covered by a Certificate of Confidentiality from the National Institutes of Health. The researchers with this Certificate may not disclose or use information, documents or data that may identify you in any federal, state, or local civil, criminal, administrative, legislative, or other action, suit, or proceeding. The Certificate of Confidentiality will not be used to prevent disclosures for any purpose you have consented to in this informed consent document, such as the sharing of videos or pictures of your child. The Certificate of Confidentiality will also not be used to prevent disclosure of child abuse or neglect as required by federal, state, or local law.",
+            "payment": "After you finish the study, we will email you a $5 gift card within the next week. In addition, you can earn an additional $5 gift card if you fill out another external survey linked at the end of the study. To be eligible for the gift card your child must be in the age range for this study, you need to submit a valid consent statement, and we need to see that there is a child with you. But we will send a gift card even if you do not finish the whole study or we are not able to use your child's data! There are no other direct benefits to you or your child from participating, but we hope you will enjoy the experience.",
+            "purpose": "At the Infant Learning and Development Laboratory at the University of Chicago, we are interested in how infants and young children reason about the world and how they learn from their interactions with other people. Through our research, we hope to better understand children’s early reasoning, and how that thinking changes as they grow older, in order to paint a clearer picture of development for scientists, parents and educators. In today's study, we are investigating how social categories (such as race and language groups) and social experiences affect children’s learning. Our goal in these studies is to see what children naturally do in response to seeing people interact and whether they pay attention to the person's race when processing these interactions. Please understand that there are no right or wrong answers. Our findings do not allow us to draw meaningful conclusions about an individual child’s abilities, although they can provide information about general patterns in infant development.",
+            "PIContact": "woodward@uchicago.edu",
+            "procedures": "Your child will be shown videos of two people. There will be three types of videos: (1) two people talking; (2) two people saying hi; and (3) two people turning their backs to each other. We are interested in what babies think about people and their interactions according to the race of the people they saw. We will ask you (the parent) to turn around, close your eyes, or look down to avoid influencing your child's responses. There are no anticipated risks associated with participating. To better understand your child's social environment, we will also ask you to fill out a questionnaire after the experiment and an additional survey about the people your child interacts with regularly.",
+            "institution": "University of Chicago"
+        },
+        "final-instructions": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "title": "Before we begin:",
+                    "listblocks": [
+                        {
+                            "text": "Again, we are most interested in your baby's natural attention so please don't talk or direct your baby's attention while the people are on the screen. "
+                        },
+                        {
+                            "text": "Please close all other tabs or windows of your browser, to minimize any disruptions and ensure a good connection."
+                        },
+                        {
+                            "text": "To pause the study, press the space bar."
+                        },
+                        {
+                            "text": "If for any reason you want to stop the study, you can press ctrl-X or F1 to skip to the exit survey and select a privacy level for your video."
+                        },
+                        {
+                            "text": "You will be able to choose video privacy level at the end of the study."
+                        }
+                    ]
+                },
+                {
+                    "text": "Please turn the volume up so that it's easy to hear but still comfortable.",
+                    "title": "Test your audio and get ready to start",
+                    "mediaBlock": {
+                        "text": "You should hear 'Ready to go?'",
+                        "isVideo": false,
+                        "sources": [
+                            {
+                                "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/audio/ready.mp3",
+                                "type": "audio/mp3"
+                            },
+                            {
+                                "src": "https://s3.amazonaws.com/lookitcontents/exp-physics-final/audio/ready.ogg",
+                                "type": "audio/ogg"
+                            }
+                        ],
+                        "mustPlay": true,
+                        "warningText": "Please try playing the sample audio."
+                    }
+                }
+             ],
+            "nextButtonText": "Next"
+        },
+             "web-cam": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                 {
+                    "text": "During the study, sit your baby on your lap and look down, or you can sit them in a high-chair and be directly behind them. During this time, close your eyes and do not interact with your baby unless you hear them crying or being very fussy. We may not be able to use your child's data if you interact or talk to them.",
+                    "image": {
+                        "alt": "Parent holding child or on lap",
+                        "src": "https://raw.githubusercontent.com/woodwardlab/lookit-stimuli-template/master/img/parent_lap_highchair.png"
+                    },
+                                        "title": "Holding your baby"
+
+                },
+                {
+                    "text": "Please close your eyes or look down during the study if you feel comfortable doing so. This helps us be sure you don’t influence where your baby looks by accident."
+                }
+                ],
+            "showWebcam": true,
+            "webcamBlocks": [
+                {                  "title": "Webcam position",
+                    "listblocks": [
+                        {
+                            "text": "Please make sure we can see your baby's eyes!"
+                        },
+                         {"text": "Make sure your baby can't touch the space bar (the pause button)!"
+                        },
+                        {
+                            "text": "Once you and your baby are ready, click the next button to start watching the videos!"
+                        }
+                    ]
+                }
+            ],
+            "nextButtonText": "Next"
+        }
+    },
+    "sequence": [
+        "video-config",
+        "video-consent",
+        "instructions",
+        "final-instructions",
+        "web-cam",
+        "start-recording-with-video",
+        "trials",
+        "stop-recording-with-video",
+        "demographic",
+        "parent-1",
+        "parent-2",
+        "zipcode",
+        "neighborhood",
+        "language",
+        "language-follow-up",
+        "exit-survey"
+
+
+    ]
+}
