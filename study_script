@@ -199,11 +199,9 @@
             ],
             "parameterSets": [
                 {
-                    "FAM": "W1W2",
-                    "TEST1": "W1W2A-15",
-                    "TEST2": "W1W2D-15",
-                    "ALTTEST1": "W1W2D-15",
-                    "ALTTEST2": "W1W2A-15",
+                    "FAM": "Order1",
+                    "TEST1": "AaayBR_S2",
+                    "TEST2": "CrossBR_S2",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
                         "chimes",
                         "bells",
@@ -215,8 +213,6 @@
                      "FAM": "W1W2",
                      "TEST1": "W1W2D-15",
                      "TEST2": "W1W2A-15",
-                     "ALTTEST1": "W1W2A-15",
-                     "ALTTEST2": "W1W2D-15",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
                          "chimes",
                          "bells",
@@ -228,8 +224,6 @@
                     "FAM": "W1W3",
                     "TEST1": "W1W3A-15",
                     "TEST2": "W1W3D-15",
-                    "ALTTEST1": "W1W3D-15",
-                    "ALTTEST2": "W1W3A-15",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
                         "chimes",
                         "bells",
@@ -241,8 +235,6 @@
                      "FAM": "W1W3",
                      "TEST1": "W1W3D-15",
                      "TEST2": "W1W3A-15",
-                     "ALTTEST1": "W1W3A-15",
-                     "ALTTEST2": "W1W3D-15",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
                          "chimes",
                          "bells",
@@ -254,8 +246,6 @@
                     "FAM": "W2W3",
                     "TEST1": "W2W3A-15",
                     "TEST2": "W2W3D-15",
-                    "ALTTEST1": "W2W3D-15",
-                    "ALTTEST2": "W2W3A-15",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
                         "chimes",
                         "bells",
@@ -267,8 +257,6 @@
                      "FAM": "W2W3",
                      "TEST1": "W2W3D-15",
                      "TEST2": "W2W3A-15",
-                     "ALTTEST1": "W2W3A-15",
-                     "ALTTEST2": "W2W3D-15",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
                          "chimes",
                          "bells",
@@ -280,8 +268,6 @@
                     "FAM": "B1B2",
                     "TEST1": "B1B2A-15",
                     "TEST2": "B1B2D-15",
-                    "ALTTEST1": "B1B2D-15",
-                    "ALTTEST2": "B1B2A-15",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
                         "chimes",
                         "bells",
@@ -293,8 +279,6 @@
                      "FAM": "B1B2",
                      "TEST1": "B1B2D-15",
                      "TEST2": "B1B2A-15",
-                     "ALTTEST1": "B1B2A-15",
-                     "ALTTEST2": "B1B2D-15",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
                          "chimes",
                          "bells",
@@ -319,8 +303,6 @@
                      "FAM": "B1B4",
                      "TEST1": "B1B4D-15",
                      "TEST2": "B1B4A-15",
-                     "ALTTEST1": "B1B4A-15",
-                     "ALTTEST2": "B1B4D-15",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
                          "chimes",
                          "bells",
@@ -345,8 +327,6 @@
                      "FAM": "B2B4",
                      "TEST1": "B2B4D-15",
                      "TEST2": "B2B4A-15",
-                     "ALTTEST1": "B2B4A-15",
-                     "ALTTEST2": "B2B4D-15",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
                          "chimes",
                          "bells",
@@ -358,8 +338,6 @@
                     "FAM": "W1B4",
                     "TEST1": "W1B4A-15",
                     "TEST2": "W1B4D-15",
-                    "ALTTEST1": "W1B4D-15",
-                    "ALTTEST2": "W1B4A-15",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
                         "chimes",
                         "bells",
@@ -371,8 +349,6 @@
                      "FAM": "W2B4",
                      "TEST1": "W2B4D-15",
                      "TEST2": "W2B4A-15",
-                     "ALTTEST1": "W2B4A-15",
-                     "ALTTEST2": "W2B4D-15",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
                          "chimes",
                          "bells",
@@ -384,8 +360,6 @@
                     "FAM": "W3B4",
                     "TEST1": "W3B4A-15",
                     "TEST2": "W3B4D-15",
-                    "ALTTEST1": "W3B4D-15",
-                    "ALTTEST2": "W3B4A-15",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
                         "chimes",
                         "bells",
@@ -397,8 +371,6 @@
                      "FAM": "W4B1",
                      "TEST1": "W4B1D-15",
                      "TEST2": "W4B1A-15",
-                     "ALTTEST1": "W4B1A-15",
-                     "ALTTEST2": "W4B1D-15",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
                          "chimes",
                          "bells",
@@ -410,8 +382,6 @@
                     "FAM": "W4B2",
                     "TEST1": "W4B2A-15",
                     "TEST2": "W4B2D-15",
-                    "ALTTEST1": "W4B2D-15",
-                    "ALTTEST2": "W4B2A-15",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
                         "chimes",
                         "bells",
@@ -423,8 +393,6 @@
                      "FAM": "W4B4",
                      "TEST1": "W4B4D-15",
                      "TEST2": "W4B4A-15",
-                     "ALTTEST1": "W4B4A-15",
-                     "ALTTEST2": "W4B4D-15",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
                          "chimes",
                          "bells",
@@ -1162,9 +1130,9 @@
             "PIName": "Professor Amanda Woodward",
             "datause": " Trained research assistants will view these videos to measure how long infants looked. These research assistants will not have access to identifying information, including name and birthdate, when they are coding these videos. We will not report any identifying information in order to maintain confidentiality. This research is covered by a Certificate of Confidentiality from the National Institutes of Health. The researchers with this Certificate may not disclose or use information, documents or data that may identify you in any federal, state, or local civil, criminal, administrative, legislative, or other action, suit, or proceeding. The Certificate of Confidentiality will not be used to prevent disclosures for any purpose you have consented to in this informed consent document, such as the sharing of videos or pictures of your child. The Certificate of Confidentiality will also not be used to prevent disclosure of child abuse or neglect as required by federal, state, or local law.",
             "payment": "After you finish the study, we will email you a $5 gift card within the next week. In addition, you can earn an additional $5 gift card if you fill out another external survey linked at the end of the study. To be eligible for the gift card your child must be in the age range for this study, you need to submit a valid consent statement, and we need to see that there is a child with you. But we will send a gift card even if you do not finish the whole study or we are not able to use your child's data! There are no other direct benefits to you or your child from participating, but we hope you will enjoy the experience.",
-            "purpose": "At the Infant Learning and Development Laboratory at the University of Chicago, we are interested in how infants and young children reason about the world and how they learn from their interactions with other people. Through our research, we hope to better understand children’s early reasoning, and how that thinking changes as they grow older, in order to paint a clearer picture of development for scientists, parents and educators. In today's study, we are investigating how social categories (such as race and language groups) and social experiences affect children’s learning. Our goal in these studies is to see what children naturally do in response to seeing people interact and whether they pay attention to the person's race when processing these interactions. Please understand that there are no right or wrong answers. Our findings do not allow us to draw meaningful conclusions about an individual child’s abilities, although they can provide information about general patterns in infant development.",
+            "purpose": "At the Infant Learning and Development Laboratory at the University of Chicago, we are interested in how infants and young children reason about the world and how they learn from their interactions with other people. Through our research, we hope to better understand children’s early reasoning, and how that thinking changes as they grow older, in order to paint a clearer picture of development for scientists, parents and educators. In today's study, we are investigating how social categories (such as language groups) and social experiences affect children’s learning. Our goal in these studies is to see what children naturally do in response to seeing people interact and whether they pay attention to the language people speak when processing these interactions. Please understand that there are no right or wrong answers. Our findings do not allow us to draw meaningful conclusions about an individual child’s abilities, although they can provide information about general patterns in infant development.",
             "PIContact": "woodward@uchicago.edu",
-            "procedures": "Your child will be shown videos of two people. There will be three types of videos: (1) two people talking; (2) two people saying hi; and (3) two people turning their backs to each other. We are interested in what babies think about people and their interactions according to the race of the people they saw. We will ask you (the parent) to turn around, close your eyes, or look down to avoid influencing your child's responses. There are no anticipated risks associated with participating. To better understand your child's social environment, we will also ask you to fill out a questionnaire after the experiment and an additional survey about the people your child interacts with regularly.",
+            "procedures": "Your child will be shown videos of two people. There will be three types of videos: (1) two people talking; (2) two people saying hi; and (3) two people turning their backs to each other. We are interested in what babies think about people and their interactions according to the language spoken by the people they saw. We will ask you (the parent) to close your eyes or look down to avoid influencing your child's responses. There are no anticipated risks associated with participating. To better understand your child's social environment, we will also ask you to fill out a questionnaire after the experiment and an additional survey about the people your child interacts with regularly.",
             "institution": "University of Chicago"
         },
         "final-instructions": {
