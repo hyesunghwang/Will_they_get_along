@@ -200,8 +200,8 @@
             "parameterSets": [
                 {
                     "FAM": "Order1",
-                    "TEST1": "AaayBR_S2",
-                    "TEST2": "CrossBR_S2",
+                    "TEST1": "AaayBR",
+                    "TEST2": "CrossBR",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
                         "chimes",
                         "bells",
@@ -210,9 +210,9 @@
                     ]
                  },
                  {
-                     "FAM": "W1W2",
-                     "TEST1": "W1W2D-15",
-                     "TEST2": "W1W2A-15",
+                     "FAM": "Order2",
+                     "TEST1": "AaayBR",
+                     "TEST2": "CrossBR",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
                          "chimes",
                          "bells",
@@ -221,9 +221,9 @@
                     ]
                 },
                 {
-                    "FAM": "W1W3",
-                    "TEST1": "W1W3A-15",
-                    "TEST2": "W1W3D-15",
+                    "FAM": "Order1",
+                    "TEST1": "CrossBR",
+                    "TEST2": "AaayBR",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
                         "chimes",
                         "bells",
@@ -232,9 +232,9 @@
                     ]
                  },
                  {
-                     "FAM": "W1W3",
-                     "TEST1": "W1W3D-15",
-                     "TEST2": "W1W3A-15",
+                     "FAM": "Order2",
+                    "TEST1": "AaayBR",
+                    "TEST2": "CrossBR",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
                          "chimes",
                          "bells",
@@ -243,9 +243,9 @@
                     ]
                 },
                 {
-                    "FAM": "W2W3",
-                    "TEST1": "W2W3A-15",
-                    "TEST2": "W2W3D-15",
+                    "FAM": "Order5",
+                    "TEST1": "CrossBL",
+                    "TEST2": "AaayBL",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
                         "chimes",
                         "bells",
@@ -254,9 +254,9 @@
                     ]
                  },
                  {
-                     "FAM": "W2W3",
-                     "TEST1": "W2W3D-15",
-                     "TEST2": "W2W3A-15",
+                    "FAM": "Order6",
+                    "TEST1": "AaayBL",
+                    "TEST2": "CrossBL",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
                          "chimes",
                          "bells",
@@ -265,9 +265,9 @@
                     ]
                 },
                 {
-                    "FAM": "B1B2",
-                    "TEST1": "B1B2A-15",
-                    "TEST2": "B1B2D-15",
+                    "FAM": "Order5",
+                    "TEST1": "CrossBL",
+                    "TEST2": "AaayBL",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
                         "chimes",
                         "bells",
@@ -276,9 +276,9 @@
                     ]
                  },
                  {
-                     "FAM": "B1B2",
-                     "TEST1": "B1B2D-15",
-                     "TEST2": "B1B2A-15",
+                    "FAM": "Order6",
+                    "TEST1": "CrossBL",
+                    "TEST2": "AaayBL",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
                          "chimes",
                          "bells",
@@ -287,11 +287,9 @@
                     ]
                 },
                 {
-                    "FAM": "B1B4",
-                    "TEST1": "B1B4A-15",
-                    "TEST2": "B1B4D-15",
-                    "ALTTEST1": "B1B4D-15",
-                    "ALTTEST2": "B1B4A-15",
+                    "FAM": "Order1",
+                    "TEST1": "CrossBL",
+                    "TEST2": "AaayBL",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
                         "chimes",
                         "bells",
@@ -300,9 +298,9 @@
                     ]
                  },
                  {
-                     "FAM": "B1B4",
-                     "TEST1": "B1B4D-15",
-                     "TEST2": "B1B4A-15",
+                    "FAM": "Order2",
+                    "TEST1": "AaayBL",
+                    "TEST2": "CrossBL",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
                          "chimes",
                          "bells",
@@ -311,11 +309,9 @@
                     ]
                 },
                 {
-                    "FAM": "B2B4",
-                    "TEST1": "B2B4A-15",
-                    "TEST2": "B2B4D-15",
-                    "ALTTEST1": "B2B4D-15",
-                    "ALTTEST2": "B2B4A-15",
+                    "FAM": "Order1",
+                    "TEST1": "CrossBR",
+                    "TEST2": "AaayBR",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
                         "chimes",
                         "bells",
@@ -324,9 +320,9 @@
                     ]
                  },
                  {
-                     "FAM": "B2B4",
-                     "TEST1": "B2B4D-15",
-                     "TEST2": "B2B4A-15",
+                    "FAM": "Order2",
+                    "TEST1": "AaayBL",
+                    "TEST2": "CrossBL",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
                          "chimes",
                          "bells",
@@ -335,9 +331,9 @@
                     ]
                 },
                 {
-                    "FAM": "W1B4",
-                    "TEST1": "W1B4A-15",
-                    "TEST2": "W1B4D-15",
+                    "FAM": "Order5",
+                    "TEST1": "CrossBL",
+                    "TEST2": "AaayBL",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
                         "chimes",
                         "bells",
@@ -346,9 +342,9 @@
                     ]
                  },
                  {
-                     "FAM": "W2B4",
-                     "TEST1": "W2B4D-15",
-                     "TEST2": "W2B4A-15",
+                     "FAM": "Order2",
+                    "TEST1": "CrossBL",
+                    "TEST2": "AaayBL",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
                          "chimes",
                          "bells",
@@ -357,9 +353,9 @@
                     ]
                 },
                 {
-                    "FAM": "W3B4",
-                    "TEST1": "W3B4A-15",
-                    "TEST2": "W3B4D-15",
+                    "FAM": "Order5",
+                    "TEST1": "AaayBL",
+                    "TEST2": "CrossBL",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
                         "chimes",
                         "bells",
@@ -368,9 +364,9 @@
                     ]
                  },
                  {
-                     "FAM": "W4B1",
-                     "TEST1": "W4B1D-15",
-                     "TEST2": "W4B1A-15",
+                    "FAM": "Order2",
+                    "TEST1": "AaayBL",
+                    "TEST2": "CrossBL",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
                          "chimes",
                          "bells",
@@ -379,9 +375,9 @@
                     ]
                 },
                 {
-                    "FAM": "W4B2",
-                    "TEST1": "W4B2A-15",
-                    "TEST2": "W4B2D-15",
+                    "FAM": "Order17",
+                    "TEST1": "AaayBR",
+                    "TEST2": "CrossBR",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
                         "chimes",
                         "bells",
@@ -390,9 +386,163 @@
                     ]
                  },
                  {
-                     "FAM": "W4B4",
-                     "TEST1": "W4B4D-15",
-                     "TEST2": "W4B4A-15",
+                    "FAM": "Order18",
+                    "TEST1": "CrossBR",
+                    "TEST2": "AaayBR",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                    "FAM": "Order19",
+                    "TEST1": "CrossBR",
+                    "TEST2": "AaayBR",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                    "FAM": "Order20",
+                    "TEST1": "AaayBR",
+                    "TEST2": "CrossBR",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                    "FAM": "Order21",
+                    "TEST1": "CrossBL",
+                    "TEST2": "AaayBL",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                    "FAM": "Order22",
+                    "TEST1": "AaayBL",
+                    "TEST2": "CrossBL",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                    "FAM": "Order23",
+                    "TEST1": "AaayBL",
+                    "TEST2": "CrossBL",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                    "FAM": "Order24",
+                    "TEST1": "AaayBL",
+                    "TEST2": "CrossBL",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                    "FAM": "Order17",
+                    "TEST1": "AaayBR",
+                    "TEST2": "CrossBR",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                    "FAM": "Order18",
+                    "TEST1": "AaayBR",
+                    "TEST2": "CrossBR",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                    "FAM": "Order19",
+                    "TEST1": "CrossBR",
+                    "TEST2": "AaayBR",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                    "FAM": "Order20",
+                    "TEST1": "CrossBR",
+                    "TEST2": "AaayBR",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                    "FAM": "Order21",
+                    "TEST1": "CrossBL",
+                    "TEST2": "AaayBL",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                    "FAM": "Order22",
+                    "TEST1": "CrossBL",
+                    "TEST2": "AaayBL",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                    "FAM": "Order23",
+                    "TEST1": "AaayBL",
+                    "TEST2": "CrossBL",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                        "chimes",
+                        "bells",
+                        "electronic",
+                        "xylophone"
+                    ]
+                 },
+                 {
+                    "FAM": "Order22",
+                    "TEST1": "AaayBL",
+                    "TEST2": "CrossBL",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
                          "chimes",
                          "bells",
@@ -1010,7 +1160,7 @@
                         "isVideo": true,
                         "sources": [
                             {
-                                "src": "https://raw.githubusercontent.com/woodwardlab/lookit-stimuli-template/master/mp4/Grace_lookit_intro.mp4",
+                                "src": "https://raw.githubusercontent.com/woodwardlab/lookit-stimuli-template/master/mp4/Instructions_mikayla.mp4",
                                 "type": "video/mp4"
                             }
                         ],
@@ -1018,7 +1168,7 @@
                     }
                 },
                 {
-                    "text": "First, your child will see a video of two people talking repeated four times. <br><br>Next, your child will either see a video that shows those people saying hi or a video that shows those people turning their backs to each other. Each video will be repeated three times.<br><br> In some videos, there will be a <b>BEEP</b> sound. The video will then freeze for a few seconds. This is supposed to happen! <br><br> Please keep it at this frozen, still picture until it automatically proceeds. We are most interested in how long babies continue to look at this still image.<br><br> If your baby looks away that's okay! There will be a colorful ball with a fun sound to re-focus your baby's attention in between the videos.",
+                    "text": "First, you baby will watch a video in which two people will take turns talking. This will repeat 4 times. <br><br>Next, videos will show the two people either saying hi or crossing their arms and then the video will freeze for 15 seconds. This is supposed to happen! <br><br> Please keep it at this frozen, still picture until it automatically proceeds. We are most interested in how long babies continue to look at this still image.<br><br> If your baby looks away that's okay! There will be a colorful ball with a fun sound to re-focus your baby's attention in between the videos.",
                     "title": "Here are some points for you to remember:"
                 }
             ],
@@ -1185,7 +1335,7 @@
             "kind": "exp-lookit-instructions",
             "blocks": [
                  {
-                    "text": "During the study, sit your baby on your lap and look down, or you can sit them in a high-chair and be directly behind them. During this time, close your eyes and do not interact with your baby unless you hear them crying or being very fussy. We may not be able to use your child's data if you interact or talk to them.",
+                    "text": "During the study, sit your baby on your lap and close your eyes or look down. Or you can sit them in a high-chair and be directly behind them. <br><br> During this time, close your eyes and do not interact with your baby unless you hear them crying or being very fussy. <br><br> We may not be able to use your child's data if you interact or talk to them.",
                     "image": {
                         "alt": "Parent holding child or on lap",
                         "src": "https://raw.githubusercontent.com/woodwardlab/lookit-stimuli-template/master/img/parent_lap_highchair.png"
