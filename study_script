@@ -619,6 +619,7 @@
             "formSchema": {
                 "schema": {
                     "type": "object",
+                    "required": true,
                     "title": "<b> Your baby's language exposure </b> <br> (please select the description that best matches your child)",
                     "properties": {
                         "language-1": {
@@ -635,7 +636,7 @@
                         "language-1": {
                             "sort": false,
                             "type": "radio",
-                            "removeDefaultNone": true
+                               "removeDefaultNone": true
                         }
                     }
                 }
@@ -679,7 +680,7 @@
             },
             "nextButtonText": "Next"
         },
-        "parent-1": {
+          "parent-1": {
             "kind": "exp-lookit-survey",
             "formSchema": {
                 "schema": {
@@ -693,12 +694,12 @@
                                 "Other (please specify)"
                             ],
                             "type": "string",
-                            "required": true,
+                            "required": false,
                             "title": "The caregiver that spends the most time with the child is: "
                         },
                         "firstparent1": {
                             "type": "string",
-                            "required": true,
+                            "required": false,
                             "title": "If you selected other, please specify relationship"
                         },
                         "firstparent1race": {
@@ -712,7 +713,7 @@
                                 "Other (please specify below)"
                             ],
                             "type": "string",
-                            "required": true,
+                            "required": false,
                             "title": "I would identify this caregiver's race or ethnicity as (please check all that apply):"
                         },
                         "firstparent1raceother": {
@@ -730,7 +731,8 @@
                     "fields": {
                         "firstparent0": {
                             "sort": false,
-                            "type": "radio"
+                            "type": "radio",
+                            "removeDefaultNone": true
                         },
                         "firstparent1": {
                             "placeholder": "please specify",
@@ -742,7 +744,8 @@
                         },
                         "firstparent1race": {
                             "sort": false,
-                            "type": "checkbox"
+                            "type": "checkbox",
+                            "removeDefaultNone": true
                         },
                         "firstparent1raceother": {
                             "placeholder": "please specify caregiver race or ethnicity"
@@ -766,7 +769,7 @@
                                 "Yes, there are additional caregiver(s)"
                             ],
                             "type": "string",
-                            "required": true,
+                            "required": false,
                             "title": "Are there additional caregiver(s) who spend an equal amount of time caring for your child? "
                         },
                         "parent2-0": {
@@ -776,12 +779,12 @@
                                 "Other (please specify below)"
                             ],
                             "type": "string",
-                            "required": true,
+                            "required": false,
                             "title": "Caregiver 2 is: "
                         },
                         "parent2-1": {
                             "type": "string",
-                            "required": true,
+                            "required": false,
                             "title": "If you selected other, please specify relationship"
                         },
                         "parent2race": {
@@ -795,7 +798,7 @@
                                 "Other (please specify below)"
                             ],
                             "type": "string",
-                            "required": true,
+                            "required": false,
                             "title": "I would identify Caregiver 2's race or ethnicity as (please check all that apply)"
                         },
                         "parent2race2": {
@@ -809,7 +812,7 @@
                                 "Yes, there are more caregiver(s)"
                             ],
                             "type": "string",
-                            "required": true,
+                            "required": false,
                             "title": "Are there other caregiver(s) for your child?"
                         },
                         "parent2-z-othercaregivers-parent3": {
@@ -819,12 +822,12 @@
                                 "Other (please specify below)"
                             ],
                             "type": "string",
-                            "required": true,
+                            "required": false,
                             "title": "Caregiver 3 is: "
                         },
                         "parent2-z-othercaregivers-parent3-1": {
                             "type": "string",
-                            "required": true,
+                            "required": false,
                             "title": "If you selected other, please specify relationship"
                         },
                         "parent2-z-othercaregivers-parent3-race1": {
@@ -838,7 +841,7 @@
                                 "Other (please specify below)"
                             ],
                             "type": "string",
-                            "required": true,
+                            "required": false,
                             "title": "I would identify Caregiver 3's race or ethnicity as (please check all that apply)"
                         },
                         "parent2-z-othercaregivers-parent3-race2": {
@@ -852,7 +855,7 @@
                                 "Yes, there are more caregiver(s)"
                             ],
                             "type": "string",
-                            "required": true,
+                            "required": false,
                             "title": "Are there other caregiver(s) for your child?"
                         },
                         "parent2-z-othercaregivers-z-othercaregivers-parent4": {
@@ -862,12 +865,12 @@
                                 "Other (please specify below)"
                             ],
                             "type": "string",
-                            "required": true,
+                            "required": false,
                             "title": "Caregiver 4 is: "
                         },
                         "parent2-z-othercaregivers-z-othercaregivers-parent4-1": {
                             "type": "string",
-                            "required": true,
+                            "required": false,
                             "title": "If you selected other, please specify relationship"
                         },
                         "parent2-z-othercaregivers-z-othercaregivers-parent4-race1": {
@@ -881,7 +884,7 @@
                                 "Other (please specify below)"
                             ],
                             "type": "string",
-                            "required": true,
+                            "required": false,
                             "title": "I would identify Caregiver 4's race or ethnicity as (please check all that apply)"
                         },
                         "parent2-z-othercaregivers-z-othercaregivers-parent4-race2": {
@@ -942,11 +945,13 @@
                     "fields": {
                         "parent2": {
                             "sort": false,
-                            "type": "radio"
+                            "type": "radio",
+                            "removeDefaultNone": true
                         },
                         "parent2-0": {
                             "sort": false,
                             "type": "radio",
+                            "removeDefaultNone": true,
                             "dependencies": {
                                 "parent2": [
                                     "Yes, there are additional caregiver(s)"
@@ -964,6 +969,7 @@
                         "parent2race": {
                             "sort": false,
                             "type": "checkbox",
+                            "removeDefaultNone": true,
                             "dependencies": {
                                 "parent2-0": [
                                     "Mother",
@@ -985,6 +991,7 @@
                         "parent2-z-othercaregivers": {
                             "sort": false,
                             "type": "radio",
+                            "removeDefaultNone": true,
                             "dependencies": {
                                 "parent2-0": [
                                     "Mother",
@@ -997,6 +1004,7 @@
                         "parent2-z-othercaregivers-parent3": {
                             "sort": false,
                             "type": "radio",
+                            "removeDefaultNone": true,
                             "dependencies": {
                                 "parent2-z-othercaregivers": [
                                     "Yes, there are more caregiver(s)"
@@ -1015,6 +1023,7 @@
                         "parent2-z-othercaregivers-parent3-race1": {
                             "sort": false,
                             "type": "checkbox",
+                            "removeDefaultNone": true,
                             "dependencies": {
                                 "parent2-z-othercaregivers-parent3": [
                                     "Mother",
@@ -1037,6 +1046,7 @@
                         "parent2-z-othercaregivers-z-othercaregivers": {
                             "sort": false,
                             "type": "radio",
+                            "removeDefaultNone": true,
                             "dependencies": {
                                 "parent2-z-othercaregivers-parent3": [
                                     "Mother",
@@ -1049,6 +1059,7 @@
                         "parent2-z-othercaregivers-z-othercaregivers-parent4": {
                             "sort": false,
                             "type": "radio",
+                            "removeDefaultNone": true,
                             "dependencies": {
                                 "parent2-z-othercaregivers-z-othercaregivers": [
                                     "Yes, there are more caregiver(s)"
@@ -1067,6 +1078,7 @@
                         "parent2-z-othercaregivers-z-othercaregivers-parent4-race1": {
                             "sort": false,
                             "type": "checkbox",
+                            "removeDefaultNone": true,
                             "dependencies": {
                                 "parent2-z-othercaregivers-z-othercaregivers-parent4": [
                                     "Mother",
@@ -1092,6 +1104,7 @@
             },
             "nextButtonText": "Next"
         },
+
 
         "demographic": {
             "kind": "exp-lookit-survey",
@@ -1377,12 +1390,10 @@
         "demographic",
         "parent-1",
         "parent-2",
-        "zipcode",
-        "neighborhood",
         "language",
         "language-follow-up",
+        "zipcode",
+        "neighborhood",
         "exit-survey"
-
-
     ]
 }
