@@ -203,10 +203,7 @@
                     "TEST1": "AaayBR",
                     "TEST2": "CrossBR",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
-                        "chimes",
-                        "bells",
-                        "electronic",
-                        "xylophone"
+                        "chimes"
                     ]
                  },
                  {
@@ -214,10 +211,7 @@
                      "TEST1": "AaayBR",
                      "TEST2": "CrossBR",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
-                         "chimes",
-                         "bells",
-                        "electronic",
-                        "xylophone"
+                         "chimes"
                     ]
                 },
                 {
@@ -225,10 +219,7 @@
                     "TEST1": "CrossBR",
                     "TEST2": "AaayBR",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
-                        "chimes",
-                        "bells",
-                        "electronic",
-                        "xylophone"
+                        "chimes"
                     ]
                  },
                  {
@@ -236,10 +227,7 @@
                     "TEST1": "AaayBR",
                     "TEST2": "CrossBR",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
-                         "chimes",
-                         "bells",
-                        "electronic",
-                        "xylophone"
+                         "chimes"
                     ]
                 },
                 {
@@ -247,10 +235,7 @@
                     "TEST1": "CrossBL",
                     "TEST2": "AaayBL",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
-                        "chimes",
-                        "bells",
-                        "electronic",
-                        "xylophone"
+                        "chimes"
                     ]
                  },
                  {
@@ -258,10 +243,7 @@
                     "TEST1": "AaayBL",
                     "TEST2": "CrossBL",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
-                         "chimes",
-                         "bells",
-                        "electronic",
-                        "xylophone"
+                         "chimes"
                     ]
                 },
                 {
@@ -269,10 +251,7 @@
                     "TEST1": "CrossBL",
                     "TEST2": "AaayBL",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
-                        "chimes",
-                        "bells",
-                        "electronic",
-                        "xylophone"
+                        "chimes"
                     ]
                  },
                  {
@@ -280,10 +259,7 @@
                     "TEST1": "CrossBL",
                     "TEST2": "AaayBL",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
-                         "chimes",
-                         "bells",
-                        "electronic",
-                        "xylophone"
+                         "chimes"
                     ]
                 },
                 {
@@ -291,10 +267,7 @@
                     "TEST1": "CrossBL",
                     "TEST2": "AaayBL",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
-                        "chimes",
-                        "bells",
-                        "electronic",
-                        "xylophone"
+                        "chimes"
                     ]
                  },
                  {
@@ -302,10 +275,7 @@
                     "TEST1": "AaayBL",
                     "TEST2": "CrossBL",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
-                         "chimes",
-                         "bells",
-                        "electronic",
-                        "xylophone"
+                         "chimes"
                     ]
                 },
                 {
@@ -313,10 +283,7 @@
                     "TEST1": "CrossBR",
                     "TEST2": "AaayBR",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
-                        "chimes",
-                        "bells",
-                        "electronic",
-                        "xylophone"
+                        "chimes"
                     ]
                  },
                  {
@@ -324,10 +291,7 @@
                     "TEST1": "AaayBL",
                     "TEST2": "CrossBL",
                      "ATTENTIONGETTER_AUDIO_OPTIONS": [
-                         "chimes",
-                         "bells",
-                        "electronic",
-                        "xylophone"
+                         "chimes"
                     ]
                 },
                 {
@@ -335,10 +299,7 @@
                     "TEST1": "CrossBL",
                     "TEST2": "AaayBL",
                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
-                        "chimes",
-                        "bells",
-                        "electronic",
-                        "xylophone"
+                        "chimes"
                     ]
                  },
                  {
