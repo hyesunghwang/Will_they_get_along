@@ -25,13 +25,23 @@
             "sampler": "random-parameter-set",
             "frameList": [
                 {
+                    "video": {
+                        "source": "attentiongrabber"
+                    },
                     "audio": {
                         "source": "Grace_intro",
                         "loop": false
                     }
                 },
                 {
-                    "kind": "exp-lookit-calibration"
+                     "video": {
+                        "source": "vision_range",
+                        "position": "fill",
+                        "loop": false
+                     },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
                 },
                 {
                     "video": {
@@ -44,10 +54,14 @@
                     "requireVideoCount": 1
                 },
                 {
-                    "audio": {
-                        "source": "ATTENTIONGETTER_AUDIO_OPTIONS#UNIQ",
-                        "loop": true
-                    }
+                    "video": {
+                        "source": "attention_getter",
+                        "position": "fill",
+                        "loop": false
+                    },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
                 },
                 {
                     "video": {
@@ -60,10 +74,14 @@
                     "requireVideoCount": 1
                 },
                 {
-                    "audio": {
-                        "source": "ATTENTIONGETTER_AUDIO_OPTIONS#UNIQ",
-                        "loop": true
-                    }
+                    "video": {
+                        "source": "attention_getter",
+                        "position": "fill",
+                        "loop": false
+                    },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
                 },
                 {
                     "video": {
@@ -76,10 +94,14 @@
                     "requireVideoCount": 1
                 },
                 {
-                    "audio": {
-                        "source": "ATTENTIONGETTER_AUDIO_OPTIONS#UNIQ",
-                        "loop": true
-                    }
+                     "video": {
+                        "source": "attention_getter",
+                        "position": "fill",
+                        "loop": false
+                    },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
                 },
                 {
                     "video": {
@@ -92,14 +114,16 @@
                     "requireVideoCount": 1
                 },
                 {
-                    "audio": {
-                        "source": "ATTENTIONGETTER_AUDIO_OPTIONS#UNIQ",
-                        "loop": true
-                    }
+                     "video": {
+                        "source": "attention_getter",
+                        "position": "fill",
+                        "loop": false
+                    },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
                 },
-                {
-                    "kind": "exp-lookit-calibration"
-                },
+            
                 {
                     "video": {
                         "source": "TEST1",
@@ -111,10 +135,14 @@
                     "requireVideoCount": 1
                 },
                 {
-                    "audio": {
-                        "source": "ATTENTIONGETTER_AUDIO_OPTIONS#UNIQ",
-                        "loop": true
-                    }
+                     "video": {
+                        "source": "attention_getter",
+                        "position": "fill",
+                        "loop": false
+                    },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
                 },
                 {
                     "video": {
@@ -127,10 +155,14 @@
                     "requireVideoCount": 1
                 },
                 {
-                    "audio": {
-                        "source": "ATTENTIONGETTER_AUDIO_OPTIONS#UNIQ",
-                        "loop": true
-                    }
+                     "video": {
+                        "source": "attention_getter",
+                        "position": "fill",
+                        "loop": false
+                    },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
                 },
                 {
                     "video": {
@@ -143,10 +175,14 @@
                     "requireVideoCount": 1
                 },
                 {
-                    "audio": {
-                        "source": "ATTENTIONGETTER_AUDIO_OPTIONS#UNIQ",
-                        "loop": true
-                    }
+                     "video": {
+                        "source": "attention_getter",
+                        "position": "fill",
+                        "loop": false
+                    },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
                 },
                 {
                     "video": {
@@ -159,10 +195,14 @@
                     "requireVideoCount": 1
                 },
                 {
-                    "audio": {
-                        "source": "ATTENTIONGETTER_AUDIO_OPTIONS#UNIQ",
-                        "loop": true
-                    }
+                    "video": {
+                        "source": "attention_getter",
+                        "position": "fill",
+                        "loop": false
+                    },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
                 },
                 {
                     "video": {
@@ -175,10 +215,14 @@
                     "requireVideoCount": 1
                 },
                 {
-                    "audio": {
-                        "source": "ATTENTIONGETTER_AUDIO_OPTIONS#UNIQ",
-                        "loop": true
-                    }
+                     "video": {
+                        "source": "attention_getter",
+                        "position": "fill",
+                        "loop": false
+                    },
+                    "requiredDuration": 0,
+                    "requireAudioCount": 0,
+                    "requireVideoCount": 1
                 },
                 {
                     "video": {
@@ -202,7 +246,225 @@
                     "FAM": "Order1",
                     "TEST1": "AaayBR",
                     "TEST2": "CrossBR"
-                 }
+                 },
+                 {
+                     "FAM": "Order2",
+                     "TEST1": "AaayBR",
+                     "TEST2": "CrossBR",
+                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                },
+                {
+                    "FAM": "Order1",
+                    "TEST1": "CrossBR",
+                    "TEST2": "AaayBR",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                     "FAM": "Order2",
+                    "TEST1": "CrossBR",
+                    "TEST2": "AaayBR",
+                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                },
+                {
+                    "FAM": "Order5",
+                    "TEST1": "CrossBL",
+                    "TEST2": "AaayBL",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                    "FAM": "Order6",
+                    "TEST1": "AaayBL",
+                    "TEST2": "CrossBL",
+                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                },
+                {
+                    "FAM": "Order5",
+                    "TEST1": "CrossBL",
+                    "TEST2": "AaayBL",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                    "FAM": "Order6",
+                    "TEST1": "CrossBL",
+                    "TEST2": "AaayBL",
+                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                },
+                {
+                    "FAM": "Order1",
+                    "TEST1": "CrossBL",
+                    "TEST2": "AaayBL",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                    "FAM": "Order2",
+                    "TEST1": "AaayBL",
+                    "TEST2": "CrossBL",
+                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                },
+                {
+                    "FAM": "Order1",
+                    "TEST1": "CrossBR",
+                    "TEST2": "AaayBR",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                    "FAM": "Order2",
+                    "TEST1": "AaayBR",
+                    "TEST2": "CrossBR",
+                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                },
+                {
+                    "FAM": "Order5",
+                    "TEST1": "CrossBL",
+                    "TEST2": "AaayBL",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                     "FAM": "Order6",
+                    "TEST1": "CrossBL",
+                    "TEST2": "AaayBL",
+                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                },
+                {
+                    "FAM": "Order5",
+                    "TEST1": "AaayBL",
+                    "TEST2": "CrossBL",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                    "FAM": "Order6",
+                    "TEST1": "AaayBL",
+                    "TEST2": "CrossBL",
+                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                },
+                {
+                    "FAM": "Order17",
+                    "TEST1": "AaayBR",
+                    "TEST2": "CrossBR",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                    "FAM": "Order18",
+                    "TEST1": "CrossBR",
+                    "TEST2": "AaayBR",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                    "FAM": "Order19",
+                    "TEST1": "CrossBR",
+                    "TEST2": "AaayBR",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                    "FAM": "Order20",
+                    "TEST1": "AaayBR",
+                    "TEST2": "CrossBR",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                    "FAM": "Order21",
+                    "TEST1": "CrossBL",
+                    "TEST2": "AaayBL",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                    "FAM": "Order22",
+                    "TEST1": "AaayBL",
+                    "TEST2": "CrossBL",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                    "FAM": "Order23",
+                    "TEST1": "AaayBL",
+                    "TEST2": "CrossBL",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                    "FAM": "Order24",
+                    "TEST1": "AaayBL",
+                    "TEST2": "CrossBL",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                    "FAM": "Order17",
+                    "TEST1": "AaayBR",
+                    "TEST2": "CrossBR",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                    "FAM": "Order18",
+                    "TEST1": "AaayBR",
+                    "TEST2": "CrossBR",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                    "FAM": "Order19",
+                    "TEST1": "CrossBR",
+                    "TEST2": "AaayBR",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                    "FAM": "Order20",
+                    "TEST1": "CrossBR",
+                    "TEST2": "AaayBR",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                    "FAM": "Order21",
+                    "TEST1": "CrossBL",
+                    "TEST2": "AaayBL",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                    "FAM": "Order22",
+                    "TEST1": "CrossBL",
+                    "TEST2": "AaayBL",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                    "FAM": "Order23",
+                    "TEST1": "AaayBL",
+                    "TEST2": "CrossBL",
+                    "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                 },
+                 {
+                    "FAM": "Order22",
+                    "TEST1": "AaayBL",
+                    "TEST2": "CrossBL",
+                     "ATTENTIONGETTER_AUDIO_OPTIONS": [
+                    ]
+                }
+
             ],
             "commonFrameProperties": {
                 "kind": "exp-lookit-video",
@@ -219,7 +481,7 @@
                 "autoProceed": true,
                 
                 "video": {
-                    "source": "attention_getter",
+                    "source": "attentiongrabber",
                     "left": 40,
                     "width": 20,
                     "top": 30,
@@ -232,16 +494,8 @@
                 "pauseAudio": "pause",
                 "pauseVideo": "attentiongrabber",
                 "unpauseAudio": "Grace_return_from_pause",
-                "pauseText": "(You’ll have a moment to get in position again.)",
+                "pauseText": "(You’ll have a moment to get in position again.)"
                 
-                "calibrationLength": 2000,
-                "calibrationPositions": [
-                    "left",
-                    "right",
-                    "center"
-                ],
-                "calibrationAudio": "chimes",
-                "calibrationVideo": "attentiongrabber"
             }
         },
         "zipcode": {
@@ -1032,14 +1286,14 @@
         }
     },
     "sequence": [
-                "trials",
+                
         "video-config",
         "video-consent",
         "instructions",
         "final-instructions",
         "web-cam",
         "start-recording-with-video",
-
+        "trials",
         "stop-recording-with-video",
         "demographic",
         "parent-1",
